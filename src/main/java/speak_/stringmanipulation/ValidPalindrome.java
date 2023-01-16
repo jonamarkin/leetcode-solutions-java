@@ -26,9 +26,9 @@ public class ValidPalindrome {
             }
         }
 
-        String fomattedString = string.toString();
-        String revereedString = string.reverse().toString();
+        String formattedString = string.toString();
+        String reversedString = string.reverse().toString();
 
-        return fomattedString.equals(revereedString);
+        return formattedString.equals(reversedString);
     }
 }
